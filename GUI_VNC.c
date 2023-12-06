@@ -36,6 +36,7 @@
 #include "main.h"
 #include "Board_LED.h"                  // ::Board Support:LED
 #include "rl_net.h"                     // Keil.MDK-Pro::Network:CORE
+#include "rl_usb.h"                     // Keil.MDK-Pro::USB:CORE
 
 extern void Init_GUIThread(void);
 
@@ -56,6 +57,9 @@ __NO_RETURN void app_main (void *argument) {
 
   LED_Initialize();
   netInitialize();
+	
+	USBD_Initialize         (0U);          /* USB Device 0 Initialization        */
+  USBD_Connect            (0U);          /* USB Device 0 Connect               */
 
   Init_GUIThread();
 
