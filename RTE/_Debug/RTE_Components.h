@@ -16,7 +16,10 @@
  */
 #define CMSIS_device_header "stm32f7xx.h"
 
-/* ARM::CMSIS:RTOS2:Keil RTX5&Source@5.5.4 */
+/* ARM::CMSIS-View:Event Recorder&DAP@1.5.3 */
+#define RTE_CMSIS_View_EventRecorder
+        #define RTE_CMSIS_View_EventRecorder_DAP
+/* ARM::CMSIS:RTOS2:Keil RTX5&Source@5.8.0 */
 #define RTE_CMSIS_RTOS2                 /* CMSIS-RTOS2 */
         #define RTE_CMSIS_RTOS2_RTX5            /* CMSIS-RTOS2 Keil RTX5 */
         #define RTE_CMSIS_RTOS2_RTX5_SOURCE     /* CMSIS-RTOS2 Keil RTX5 Source */
@@ -35,9 +38,6 @@
         #define RTE_Drivers_USART8              /* Driver USART8 */
 /* Keil::CMSIS Driver:USB Device:High-speed@1.19.0 */
 #define RTE_Drivers_USBD1               /* Driver USBD1 */
-/* Keil::Compiler&ARM Compiler:Event Recorder&DAP@1.5.1 */
-#define RTE_Compiler_EventRecorder
-          #define RTE_Compiler_EventRecorder_DAP
 /* Keil::Device:STM32Cube Framework:STM32CubeMX@1.1.0 */
 #define RTE_DEVICE_FRAMEWORK_CUBE_MX
 /* Keil::Device:STM32Cube HAL:Common@1.3.0 */
@@ -76,27 +76,27 @@
 #define RTE_DEVICE_LL_UTILS
 /* Keil::Device:Startup@1.2.5 */
 #define RTE_DEVICE_STARTUP_STM32F7XX    /* Device Startup for STM32F7 */
-/* Keil::Network&MDK-Pro:CORE&IPv4/IPv6 Debug@7.18.0 */
+/* Keil::Network&MDK-Pro:CORE&IPv4/IPv6 Debug@7.19.0 */
 #define RTE_Network_Core                /* Network Core */
           #define RTE_Network_IPv4                /* Network IPv4 Stack */
           #define RTE_Network_IPv6                /* Network IPv6 Stack */
           #define RTE_Network_Debug               /* Network Debug Version */
-/* Keil::Network&MDK-Pro:Interface:ETH@7.18.0 */
+/* Keil::Network&MDK-Pro:Interface:ETH@7.19.0 */
 #define RTE_Network_Interface_ETH_0     /* Network Interface ETH 0 */
 
-/* Keil::Network&MDK-Pro:Socket:BSD@7.18.0 */
+/* Keil::Network&MDK-Pro:Socket:BSD@7.19.0 */
 #define RTE_Network_Socket_BSD          /* Network Socket BSD */
-/* Keil::Network&MDK-Pro:Socket:TCP@7.18.0 */
+/* Keil::Network&MDK-Pro:Socket:TCP@7.19.0 */
 #define RTE_Network_Socket_TCP          /* Network Socket TCP */
-/* Keil::Network&MDK-Pro:Socket:UDP@7.18.0 */
+/* Keil::Network&MDK-Pro:Socket:UDP@7.19.0 */
 #define RTE_Network_Socket_UDP          /* Network Socket UDP */
-/* Keil::USB&MDK-Plus:CORE&Debug@6.16.1 */
+/* Keil::USB&MDK-Plus:CORE&Debug@6.17.0 */
 #define RTE_USB_Core                    /* USB Core */
           #define RTE_USB_Core_Debug              /* USB Core Debug Version */
-/* Keil::USB&MDK-Plus:Device:CDC@6.16.1 */
+/* Keil::USB&MDK-Plus:Device:CDC@6.17.0 */
 #define RTE_USB_Device_CDC_0            /* USB Device CDC instance 0 */
 
-/* Keil::USB&MDK-Plus:Device@6.16.1 */
+/* Keil::USB&MDK-Plus:Device@6.17.0 */
 #define RTE_USB_Device_0                /* USB Device 0 */
 
 /* Segger::Graphics&MDK-Pro:CORE@6.32.3 */
