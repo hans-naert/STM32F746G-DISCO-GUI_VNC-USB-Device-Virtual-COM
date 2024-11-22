@@ -92,8 +92,8 @@
 /* Keil::USB&MDK-Plus:CORE&Debug@6.17.0 */
 #define RTE_USB_Core                    /* USB Core */
 #define RTE_USB_Core_Debug              /* USB Core Debug Version */
-/* Keil::USB&MDK-Plus:Device:CDC@6.17.0 */
-#define RTE_USB_Device_CDC_0            /* USB Device CDC instance 0 */
+/* Keil::USB&MDK-Plus:Device:HID@6.17.0 */
+#define RTE_USB_Device_HID_0            /* USB Device HID instance 0 */
 
 /* Keil::USB&MDK-Plus:Device@6.17.0 */
 #define RTE_USB_Device_0                /* USB Device 0 */
