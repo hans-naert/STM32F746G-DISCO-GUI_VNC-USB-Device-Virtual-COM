@@ -42,6 +42,8 @@
 #include <stdint.h>
  
 #include "rl_usb.h"
+
+#include "Board_LED.h"                  // ::Board Support:LED
  
 // Called during USBD_Initialize to initialize the USB HID class instance.
 void USBD_HID0_Initialize (void) {
@@ -135,6 +137,7 @@ bool USBD_HID0_SetReport (uint8_t rtype, uint8_t req, uint8_t rid, const uint8_t
         buf: Received Data
         len: Received Data Length
       */
+		  LED_SetOut(*buf);
       break;
  
     case HID_REPORT_FEATURE:
