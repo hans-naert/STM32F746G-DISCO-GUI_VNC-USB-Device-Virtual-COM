@@ -475,8 +475,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\USBD_User_CDC_ACM_UART_0.c</PathWithFileName>
-      <FilenameWithoutPath>USBD_User_CDC_ACM_UART_0.c</FilenameWithoutPath>
+      <PathWithFileName>.\USBD_User_HID_0.c</PathWithFileName>
+      <FilenameWithoutPath>USBD_User_HID_0.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
